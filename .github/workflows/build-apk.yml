@@ -29,7 +29,7 @@ jobs:
 
       - name: Upload APK
         uses: actions/upload-artifact@v4        
-        with :
+        with:
           name: Sharma-Pharmacy-APK
           path: '**/build/outputs/apk/debug/*.apk'
         with:
